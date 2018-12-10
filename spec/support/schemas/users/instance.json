@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "required": [ "id", "email", "jti", "created_at", "updated_at" ],
+  "additionalProperties": false,
+  "properties": {
+    "id":    { "type": "integer" },
+    "email": { "type": "string" },
+    "jti":  { "type": "string" },
+    "created_at": { "type": "string" },
+    "updated_at": { "type": "string" }
+  }
+}
