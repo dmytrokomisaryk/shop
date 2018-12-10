@@ -10,6 +10,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'devise'
 gem 'devise-jwt'
 gem 'dotenv-rails'
+gem 'active_model_serializers', '~> 0.10.0'
 
 group :development, :test do
 	gem 'pry'

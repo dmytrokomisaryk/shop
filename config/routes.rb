@@ -10,4 +10,8 @@ Rails.application.routes.draw do
 			sessions: 'sessions',
 			registrations: 'registrations'
 		}
+
+	namespace :dashboard do
+		resources :products
+	end
 end
